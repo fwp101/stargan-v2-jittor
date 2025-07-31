@@ -2,9 +2,7 @@
 
 <div align="center">
 
-![StarGAN v2](assets/teaser.jpg)
-
-**Official Jittor implementation of StarGAN v2**
+**Jittor implementation of StarGAN v2**
 
 *Diverse Image Synthesis for Multiple Domains*
 
