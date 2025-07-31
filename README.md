@@ -51,7 +51,7 @@ StarGAN v2 is a scalable approach for diverse image-to-image translation across 
 
 ### Project File Structure
 
-
+```txt
 stargan-v2-master/
 ├── main.py                           # Main program entry (converted)
 ├── requirements.txt                  # Jittor dependencies
