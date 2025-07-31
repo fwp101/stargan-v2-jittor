@@ -47,11 +47,11 @@ StarGAN v2 is a scalable approach for diverse image-to-image translation across 
 3. **Style Encoder (E)**: Extracts style codes from reference images
 4. **Discriminator (D)**: Distinguishes real from fake images
 
-```
+
 
 ### Project File Structure
 
-```
+
 stargan-v2-master/
 ├── main.py                           # Main program entry (converted)
 ├── requirements.txt                  # Jittor dependencies
