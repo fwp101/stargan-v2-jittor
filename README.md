@@ -180,7 +180,7 @@ python main.py --mode sample \
                --src_dir assets/representative/celeba_hq/src \
                --ref_dir assets/representative/celeba_hq/ref
 
-
+```
 ---
 
 ## Network Architecture
