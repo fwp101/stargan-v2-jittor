@@ -1,0 +1,7 @@
+jittor
+numpy
+pillow
+opencv-python
+munch
+tqdm
+ffmpeg-python
