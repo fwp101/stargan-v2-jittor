@@ -179,21 +179,7 @@ python main.py --mode sample \
                --result_dir expr/results \
                --src_dir assets/representative/celeba_hq/src \
                --ref_dir assets/representative/celeba_hq/ref
-```
 
-### Latent-guided Synthesis
-
-```bash
-# Generate diverse images from latent codes
-python main.py --mode sample \
-               --num_domains 2 \
-               --resume_iter 100000 \
-               --w_hpf 1 \
-               --checkpoint_dir expr/checkpoints \
-               --result_dir expr/results \
-               --src_dir assets/representative/celeba_hq/src \
-               --num_outs_per_domain 10
-```
 
 ---
 
