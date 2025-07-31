@@ -27,14 +27,6 @@
 - [Network Architecture](#network-architecture)
 - [Loss Curves](#loss-curves)
 - [Results](#results)
-- [Advanced Features](#advanced-features)
-- [Troubleshooting](#troubleshooting)
-- [Generating Documentation Images](#generating-documentation-images)
-- [Contributing](#contributing)
-- [Citation](#citation)
-- [License](#license)
-- [Contact](#contact)
-
 ---
 
 ## Overview
@@ -54,6 +46,34 @@ StarGAN v2 is a scalable approach for diverse image-to-image translation across 
 2. **Mapping Network (F)**: Maps latent codes to style codes
 3. **Style Encoder (E)**: Extracts style codes from reference images
 4. **Discriminator (D)**: Distinguishes real from fake images
+
+```
+
+### Project File Structure
+
+```
+stargan-v2-master/
+├── main.py                           # Main program entry (converted)
+├── requirements.txt                  # Jittor dependencies
+├── CONVERSION_REPORT_ch.md           # Jittor conversion report in Chinese
+├── CONVERSION_REPORT_eng.md          # Jittor conversion report in English
+├── README.md                         # Model Architecture and Performance Results
+├── wing_trans.py                     # Wing.ckpt Model Conversion Script
+├── core/
+│   ├── model.py                      # Network model definitions (converted)
+│   ├── solver.py                     # Training solver (converted and optimized)
+│   ├── data_loader.py                # Data loaders (completely reconstructed)
+│   ├── utils.py                      # Utility functions (converted)
+│   ├── checkpoint.py                 # Checkpoint management (converted)
+│   └── wing.py                       # FAN network (converted and fixed)
+├── metrics/
+│   ├── eval.py                       # Evaluation script (converted)
+│   ├── fid.py                        # FID calculation (converted)
+│   └── lpips.py                      # LPIPS calculation (converted)
+├── assets/                           # Sample images
+├── expr/                             # Experiment output directory
+└── test_*.py                         # Various testing and validation scripts
+```
 
 ---
 
