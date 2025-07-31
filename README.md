@@ -2,6 +2,8 @@
     
 # StarGAN v2 - Jittor Implementation
 
+</div>
+
 <div align="center">
 
 **Jittor implementation of StarGAN v2**
